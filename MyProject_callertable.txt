@@ -1,0 +1,21 @@
+main
+	__CC2DW
+		____DoICP
+	pwm_init
+	LCD_Initialize
+		LCD_command
+	keyinit
+	servo_position
+	LCD_String_xy
+		LCD_command
+		LCD_String
+			LCD_Char
+	LCD_Char
+	WordToStr
+		Div_16X16_U
+	LCD_command
+	key
+		Mul_8X8_U
+	LCD_Clear
+		LCD_command
+	stepper_drive
